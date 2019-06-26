@@ -330,3 +330,13 @@ footer {
   o-border-radius: 10px;
   ms-border-radius: 10px;
 }
+
+.submit-button{
+padding: 5px 20px;
+background: lightgray;
+border: 1px solid gray;
+margin: 10px 10px;
+border-radius: 5px;
+display: inline-block;
+color: black;
+}
