@@ -7,7 +7,7 @@
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -26,10 +26,12 @@
         <a href="index.html">Home</a>
         <a href=#>About Us</a>
         <a href=#>Blog</a>
-        <a href="index.html">Contact</a>
+        <a href=#>Contact</a>
         <a href=#>Sign In</a>
       </nav>
        <!-- image code here -->
+       <img src="img/main-header.png" alt="view of the curvature of Earth from outer space">
+
       <h2>Contact Us!</h2>
 
     </header>
@@ -38,27 +40,33 @@
 
     <section class="walk">
       <div class="contact">
-        <form method="post" action="contactengine.php">
-					<label for="Name">Name:</label>
-					<input type="text" name="Name" id="Name" />
-					
-					<label for="City">City:</label>
-					<input type="text" name="City" id="City" />
-		
-					<label for="Email">Email:</label>
-					<input type="text" name="Email" id="Email" />
-					
-					<label for="Message">Message:</label><br />
-					<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
-	
-					<button class="submit-button">Submit</button>
-				</form>
+          <form>
+              <h1>to: Mozilla</h1>
+            
+              <div id="from">
+                <label for="name">from:</label>
+                <input type="text" id="name" name="user_name">
+              </div>
+            
+              <div id="reply">
+                <label for="mail">reply:</label>
+                <input type="email" id="mail" name="user_email">
+              </div>
+            
+              <div id="message">
+                <label for="msg">Your message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </div>
+             
+              <div class="button">
+                <button type="submit">Send your message</button>
+              </div>
+            </form>
     
       </div>
 
     </section>
 
-    <img src="img/main-header.png" alt="view of the curvature of Earth from outer space">
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>

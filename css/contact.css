@@ -338,3 +338,67 @@
     font-size: 3.2rem;
     text-align: center;
   }
+
+
+  @font-face {
+    font-family: 'handwriting';
+    src: url('fonts/journal-webfont.woff2') format('woff2'),
+         url('fonts/journal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url('fonts/veteran_typewriter-webfont.woff2') format('woff2'),
+         url('fonts/veteran_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font  : 21px sans-serif;
+
+  padding : 2em;
+  margin  : 0;
+
+  /* background : #222; */
+}
+
+form {
+  position: relative;
+
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+  background: #FFF url(/img/postcardbackground.jpg);
+}
+h1 {
+    /* position : absolute;
+    left : 415px;
+    top  : 185px;
+    */
+    font : 1em "typewriter", sans-serif;
+  }
+  
+  #from {
+    position: absolute;
+    left : 398px;
+    top  : 235px;
+  }
+  
+  #reply {
+    position: absolute;
+    left : 390px;
+    top  : 285px;
+  }
+  
+  #message {
+    position: absolute;
+    left : 20px;
+    top  : 70px;
+  }
+  label {
+    font : .8em "typewriter", sans-serif;
+  }
